@@ -17,18 +17,17 @@ public class FourDigits {
             " a double (in the form xx.xx) : " ) ; //print out
             double number = myScanner.nextDouble (); //accept next double
             
-            double guess1;
+            int number=number;
+            int number1=number;
             
-            guess1=(number/3); //divide by three
+            number2=number1*10000;
             
-            double guess2;
+            int number2;
             
-            guess2=(2*guess1*guess1*guess1+number)/(3*guess1*guess1); //more acurate
-            
-            System.out.print ("The cube root is"+ guess2); //print
+            System.out.print ("The four digits are"+number2);
             
         }
+        
 }
-            
             
             
