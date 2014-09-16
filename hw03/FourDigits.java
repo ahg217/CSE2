@@ -1,11 +1,12 @@
 //Anna Gillis
 //CSE 2
-//hw 03 root
-//Write a program that prompts the user to enter a double and then prints out a crude estimate of the cube root of the number and the value of this crude guess when cubed.
+//hw 03 fourdigits
+//Write a program that prompts the user to enter a double and  then prints out 
+//the first four digits to the right of the decimal point.
 
 import java.util.Scanner; //necessary to use scanner class
 
-public class Root {
+public class FourDigits {
         //main method required for ever java program
         public static void main(String[ ] args) {
             
@@ -28,4 +29,6 @@ public class Root {
             
         }
 }
-     
+            
+            
+            
